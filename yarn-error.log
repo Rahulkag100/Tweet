@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add antd
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Brackets\command;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\rahul\AppData\Local\Microsoft\WindowsApps;C:\Users\rahul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rahul\AppData\Local\Yarn\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\rahul\AppData\Local\GitHubDesktop\bin;C:\Users\rahul\AppData\Roaming\Composer\vendor\bin;C:\Users\rahul\AppData\Roaming\npm
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  13.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "dis-tweet",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "antd": "^4.6.3",
+      "react": "16.8.6",
+      "react-dom": "16.8.6",
+      "react-scripts": "^3.4.3"
+    },
+    "devDependencies": {
+      "typescript": "3.3.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background: #0F2027; 
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+  padding: 0 15px;
+}
+
+header {
+  background: #00B4DB; 
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); 
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  text-align: center;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 200;
+}
+header p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  color:white;
+  background: #00B4DB; 
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); 
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+
+}
+
+.tweetcard {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.tweetcard h5 {
+  color: blue;
+  position: relative;
+  float: right;
+}
+.tweetcard p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 60px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.textarea{
+  border: 1px solid blue;
+  
+}
+form input,
+form textarea,
+form p {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form p{
+  color : rgb(138, 137, 137);
+}
+form input{
+ color: blue;
+}
+
+.tweetButton{
+  position: relative;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: #1DA1F2;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  margin-left: 150px;
+
+}
+
